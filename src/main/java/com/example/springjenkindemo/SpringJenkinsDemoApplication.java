@@ -19,6 +19,7 @@ public class SpringJenkinsDemoApplication {
 
     public static void main(String[] args) {
         logger.info("main() method is called. \n Application is executed.");
+        logger.info("Second comment for second commit.");
         SpringApplication.run(SpringJenkinsDemoApplication.class, args);
     }
 
